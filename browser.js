@@ -5,6 +5,7 @@ async function startBrowser() {
   try {
     console.log("Opening the browser......");
     browser = await puppeteer.launch({
+      executablePath: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
       headless: false,
       args: ["--disable-setuid-sandbox", "--use-fake-ui-for-media-stream"],
       'ignoreHTTPSErrors': true

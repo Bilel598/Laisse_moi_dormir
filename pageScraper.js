@@ -47,7 +47,7 @@ const scraperObject = {
     await page.click('input[type=button]')
     await page.waitForTimeout(30000)
 
-    const string = "//div[@class='team-name']/h1[contains(.," + matiere + ")]"
+    const string = "//div[@class='team-name']/h1[contains(., '" + matiere + "')]"
     const [team] = await page.$x(string);
     if (team) {
       await team.click();
