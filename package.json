@@ -1,0 +1,15 @@
+{
+  "name": "laisse_moi_dormir",
+  "version": "1.0.0",
+  "description": "Super projet pour me connecter aux reunions de 8h de manière automatique afin que je puisse dormir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Bilel",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
